@@ -1,2 +1,2 @@
-# fullstack-web-development-bootcamp
+# fullstack-web-development-basics
  
