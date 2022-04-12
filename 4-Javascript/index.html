@@ -29,26 +29,31 @@
         </div>
     </nav>
     <center>
-        <div class="my-5">
+        <div class="my-5 secondary">
             <h1 class="secondary">JavaScript Demo</h1>
             <em class="secondary">
                 A couple JavaScript Tricks.
             </em>
         </div>
-        <div class="px-3 py-5 text-white rounded primary" style="width: 400px; height: 400px">
-            <h3>What does Javascript do?</h3>
-            <p> Javascript is a programming language that allows you to make your webpage functional, interactive, and dynamic. 
+        <div class="px-3 py-5 text-white rounded primary" style="width: 400px;">
+            <h3 class="primary">What does Javascript do?</h3>
+            <p class="primary"> Javascript is a programming language that allows you to make your webpage functional, interactive, and dynamic. 
                 The possibilities are just about endless, but the two examples on this page are the clock on the Navbar and the colour selector below.
-                <br><br>
-                The clock uses the setInterval() method to call the updateClock() function every second, which converts the time of the operating system into text for display.
-                
+                <hr class="primary">
+                The clock uses the setInterval() method to call the custom updateClock() function every second, which converts the time of the operating system into text for display.
+                <hr class="primary"> 
+                The color selector uses a variety of custom functions to apply the chose color to primary elements, and generate a complimentary color to use for secondary elements.
             </p>
         </div>
         <br>
         <hr class="secondary">
         <br>
-        <div class="px-3 py-5 text-white rounded primary" style="width: 400px;">
-            <h3>Select a Color:</h3>
+        <div class="px-3 py-5 mb-5 text-white rounded primary" style="width: 400px;">
+            <label for="colorInput"> 
+                <h3 class="primary">
+                    Select a Colour:
+                </h3>
+            </label>
             <input type="color" class="form-control form-control-color xs-4" id="colorInput" value="#563d7c" title="Choose your color" width="400px">
         </div>
     </center>
